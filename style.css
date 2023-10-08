@@ -1,0 +1,682 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* ........DIV ONE........ */
+
+.div1
+{
+    height: 8vh;
+    background-color: rgb(3, 17, 17);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+.div1h
+{
+    font-size: 2.2em;
+    color: rgb(246, 244, 250);
+    position: relative;
+    right: 8em;
+}
+.div1h:hover
+{
+    color: rgb(23, 133, 235);
+}
+.div1btn
+{
+    position: relative;
+    font-size: 1.2em;
+    left: 22em;
+   
+}
+a
+{
+    margin-left: 3em;
+    text-decoration: none;
+    color: rgb(246, 244, 250);
+}
+a:hover
+{
+    color: rgb(23, 133, 235);
+}
+#sign
+{
+    border: .1em solid white;
+    padding: .2em;
+}
+
+
+/* .......DIV TWO.......... */
+
+.div2
+{
+    height: 100vh;
+    background:linear-gradient(to left, rgba(22, 21, 21, 0.733), rgba(49, 49, 41, 0.767)), url('nahid.jpeg')  no-repeat scroll center;
+    /* _MG_0141-01-01-01-01-01.jpeg */
+    background-size:cover;
+}
+.div2hpbtn
+{
+    position:relative;
+    font-size:3em;
+    top:8em;
+    text-align: center;
+    color: white;
+}
+button
+{
+    font-size: .4em;
+    width: 9em;
+    height: 2.9em;
+    margin: 1em;
+    border: none;
+    border-radius: .5em;
+}
+#btn2
+{
+    background-color: rgb(243, 160, 7);
+}
+button:hover
+{
+    color:white;
+    background-color: black;
+}
+/* ..................DIV THREE.............. */
+
+.div3
+{
+    height: 100vh;
+    background-color: white;
+    
+}
+.div3p1
+{
+    text-align: center;
+    position: relative;
+    font-size: 1.2em;
+    top: 3em;
+    color: grey;
+}
+.div3h1
+{
+    font-size: 2.2em;
+    text-align: center;
+    position: relative;
+    top: 2.2em;
+}
+.div3spn1
+{
+    color: rgb(243, 160, 7);
+}
+.div3display
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    position:relative;
+    top: 5em;
+}
+.div3display1
+{
+    width:10em;
+    position: relative;
+    left:7em;
+    font-size: 1.4em;
+}
+.div3display1p
+{
+    margin-top: 1em;
+}
+.div3display2
+{
+    width: 12em;
+    background-color: rgba(255, 255, 255, 0.774);
+    position: relative;
+    right:10em;
+    padding: 1.9em;
+    box-shadow: 7px 6px 5px grey;
+    transition: all 250ms ease;
+    transform: perspective(500px) rotateY(180deg) scale(0.5);
+}
+.div3display2:hover
+{
+    transform: rotateY(0) scale(0.5);
+    box-shadow: -50px 50px 15px gray;
+}
+.div3displayh2
+{
+    color: rgb(243, 160, 7);
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+.div3displayp
+{
+    font-size: .5em;
+}
+
+#fst
+{
+    font-size: .6em;
+    color: lightgrey;
+}
+#fst:hover
+{
+    font-size: 1em;
+    color: aqua;
+}
+#scnd
+{
+    font-size: .8em;
+    color: darkgray;
+}
+#scnd:hover
+{
+    font-size: 1em;
+    color: aqua;
+}
+#third
+{
+    font-size:.8em;
+    color: grey;
+}
+#third:hover
+{
+    font-size: 1em;
+    color: aqua;
+}
+#four
+{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+#four:hover
+{
+    font-size: 1.9em;
+    color: aqua;
+}
+ul
+{
+    color: rgb(243, 160, 7);
+}
+li
+{
+    font-weight: bold;
+    font-size: .5em;
+}
+#fifth
+{
+    font-size:1em;
+    color: grey;
+}
+#fifth:hover
+{
+    font-size: 1.1em;
+    color: aqua;
+}
+#six
+{
+    font-size: .8em;
+    color: darkgray;
+}
+#six:hover
+{
+    font-size: 1em;
+    color: aqua;
+}
+#seven
+{
+    font-size: .7em;
+    color: lightgrey;  
+}
+#seven:hover
+{
+    font-size: 1em;
+    color: aqua;
+}
+img
+{
+    height: 70vh;
+    width: 40vw;
+    position: relative;
+    top: .7em;
+}
+ol,li
+{
+    margin-top: .9em;
+    margin-left: .4em;
+}
+
+
+/* DIV FOURTH............... */
+
+.div4
+{
+    background: linear-gradient(to right, rgba(8, 0, 0, 0.733), rgba(10, 0, 0, 0.781)), url('517256.jpg') no-repeat scroll center;
+    background-size: cover;
+    
+}
+.div4display
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 7em;
+    color: white;
+    width: 70%;
+    margin: auto;
+    font-size: .7em;
+}
+.div4p1
+{
+    color: rgb(221, 214, 214);
+    position: relative;
+    top: 2em;
+    text-align: center;
+    font-size: 1.3em;
+}
+.div4h1
+{
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 2em;
+    top: 1.7em;
+}
+.div4spn
+{
+    color: rgb(243, 160, 7);
+}
+.div4leftdiv
+{
+    font-size: 1em;
+    width: 25em;
+} 
+
+.div4rightdiv
+{
+    font-size: 1em;
+    width: 25em;
+}
+
+.div4leftfst
+{
+    padding: 1em;
+}
+
+.div4leftfsth1
+{
+    position: relative;
+    bottom: .5em;
+    font-size: 1.4em;
+}
+.div4leftfstp1
+{
+    font-size: .7em;
+}
+
+/* DIV Six.................. */
+.div6
+{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe
+{
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    right: 2em;
+    height:1.8em;
+}
+.div6h4spn
+{
+    color: rgb(243, 160, 7);
+    margin-right: .3em;
+}
+#email
+{
+    position: relative;
+    height: 5vh;
+    width: 45vh;
+    border:.2em solid rgb(243, 160, 7);
+    padding: .8em;
+    border-radius: 1em;
+}
+#email:hover
+{
+    background-color: rgb(198, 218, 235);
+}
+
+/* DIV SEVEN............... */
+.div7
+{
+    background-color: rgb(7, 4, 1);
+    color: white;
+    height: 20vh;
+    font-size: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#div7fntosm
+{
+    margin-right: 2em;
+}
+/* DIV EIGHT..................... */
+.div8
+{
+    height: 8vh;
+    background-color: rgb(243, 160, 7);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.div7spn
+{
+    font-style: italic;
+    color: grey;
+}
+i
+{
+    font-size: 1.2em;
+    margin-right: 1em;
+    position: relative;
+    left: 2em;
+}
+
+/* ................RESPONSIV 375................ */
+@media(max-width:375px)
+{
+    .subscribe
+    {
+        font-size: 1.8em;
+    }
+    #email
+    {
+       font-size: 1.8em;
+    }
+}
+
+/* ..............................................RESPONSIB 2560................... */
+@media (max-width:2560px)
+{
+   img
+        {
+            margin-top: 4em;
+        }
+
+        .div3display
+        {
+            font-size: 1.4em;
+        }
+        .div3display2
+        {
+            font-size: 1.8em;
+            right: 5.5em;
+            transform: perspective(500px) rotateY(180deg) scale(0.8);
+        }
+
+       .div3display2:hover
+        {
+           transform: rotateY(0) scale(1);
+           box-shadow: -50px 50px 15px gray;
+        } 
+        .div4
+        {
+            height: 60vh;
+            font-size: 1.3em;
+        }
+}
+
+/*................................ RESPONSIB 1440..................................... */
+
+
+@media (max-width:1440px)
+{
+    .div1h
+    {
+        font-size: 1.6em;
+    }
+    .div1btn
+    {
+        font-size: .8em;
+    }
+
+
+    .div2
+    {
+        height: 100vh;
+        font-size: .7em;
+    }
+    .div3display1
+    {
+        font-size: .9em;
+        right: 2em;
+    }
+    img
+    {
+        height:20em; 
+       top: 2.5em;
+    }
+    .div3display2
+    {
+        font-size: 1em;
+        left: 0;
+        margin-right: 7em;
+    }
+    .div4
+    {
+        font-size: .8em;
+    }
+    .div6
+    {
+        height: 15em;
+        font-size: .8em;
+    }
+    .div7
+    {
+        height: 4em;
+        font-size: 2em;
+    }
+    .div8
+    {
+        height: 8em;
+        font-size: .5em;
+    }
+}
+
+/* ..................RESPONSIV 768.......................... */
+@media(max-width:768px)
+{
+    
+    .div1h
+    {
+        font-size: 1.3em;
+    }
+    .div1btn
+    {
+        font-size: .6em;
+    }
+    .div2
+    {
+        font-size: .6em;
+    }
+    .div3
+    {
+        height: 160vh;
+    }
+    .div3display
+    {
+        font-size: 1.3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .div3display1
+    {
+        top: 1em;
+        left: 0;
+    }
+    img
+    {
+        width: 20em;
+        top: 0;
+    }
+    .div3display2
+    {
+        top: 1.8em;
+        margin: auto;
+    }
+    .div4
+    {
+        font-size: .78em;
+    }
+    .div6
+    {
+        font-size: .5em;
+    }
+}
+
+
+/* .........RESPONSIVE 1024............................... */
+
+@media(max-width:1024px)
+{
+    .div1
+    {
+        font-size: .8em;
+    }
+    img
+    {
+        height: 18em;
+    }
+    .div3display2
+    {
+        left: 2em;
+    }
+}
+
+
+
+
+
+/*.....................................RESPONSIV 425 ............... */
+
+@media (max-width:425px)
+{
+
+    /* .......DIV ONE.......... */
+    .div1h
+    {
+        left: 0em;
+        font-size: 1em;
+    }
+    .div1btn
+    {
+        position: relative;
+        font-size: .5em;
+        left: 1em;
+   
+   }
+   /*........... DIV TWO................. */
+   .div2
+    {
+        height: 45vh;
+    }
+    .div2hpbtn
+    {
+        font-size: 1.2em;
+    }
+
+    /* DIV THREEE.............. */
+    .div3
+    {
+        height: 90em;
+    }
+    .div3p1
+    {
+        font-size: .8em;
+    }
+    .div3h1
+    {
+        font-size: 1.3em;
+    }
+    .div3display
+    {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+       font-size: 1.2em;
+    }
+    .div3display1
+    {
+        font-size: 1.2em;
+        left: 0;
+    }
+    img
+    {
+        width: 90vw;
+        height: 50vh;
+        top: 0;
+    }
+    .div3display2
+    {
+        font-size:1em;
+        right: 0;
+        top: 5em;
+        margin: auto;
+    }
+    /* DIV FOURRR.......................... */
+    .div4
+    {
+        font-size: .5em;
+        height: 50em;
+    }
+
+    /* DIV SIXXX,,,,,,,,,,,,,,,,,,,, */
+    .div6
+    {
+        height: 20em;
+        font-size: .4em;
+    }
+    #email
+    {
+        height: 2em;
+        width: 13em;
+    }
+    /* DIV SEVENN................ */
+    .div7
+    {
+        font-size: 1.4em;
+        height: 5em;
+    }
+
+    /* DIV EIGHT,............... */
+    .div8
+    {
+        font-size: .5em;
+    }
+  
+
+}
